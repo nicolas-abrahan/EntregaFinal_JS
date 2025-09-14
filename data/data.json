@@ -1,0 +1,88 @@
+{
+  "zapatos": [
+    {
+      "id": 1,
+      "nombre": "Zapatillas adidas Adizero Sl2",
+      "precio": 25999,
+      "img": "../images/zapaz/deportivas/deportivas_1.webp",
+      "tipo": "Deportiva"
+    },
+    {
+      "id": 2,
+      "nombre": "Botines Nike Legend 10 Club Tf",
+      "precio": 17999,
+      "img": "../images/zapaz/deportivas/deportivas_2.webp",
+      "tipo": "Deportiva"
+    },
+    {
+      "id": 3,
+      "nombre": "Zapatillas adidas Dropset Control Trainer M",
+      "precio": 25999,
+      "img": "../images/zapaz/deportivas/deportivas_3.webp",
+      "tipo": "Deportiva"
+    },
+    {
+      "id": 4,
+      "nombre": "Zapatillas adidas Adizero Sl2 W",
+      "precio": 23999,
+      "img": "../images/zapaz/deportivas/deportivas_4.webp",
+      "tipo": "Deportiva"
+    },
+    {
+      "id": 5,
+      "nombre": "Zapatillas Puma Park Lifestyle Street",
+      "precio": 17999,
+      "img": "../images/zapaz/urbanas/urbanas_1.jpeg",
+      "tipo": "SG"
+    },
+    {
+      "id": 6,
+      "nombre": "Zapatillas Nike Full Force Low Hombre",
+      "precio": 25999,
+      "img": "../images/zapaz/urbanas/urbanas_2.jpeg",
+      "tipo": "SG"
+    },
+    {
+      "id": 7,
+      "nombre": "Zapatillas Nike Gamma Force Mujer",
+      "precio": 29999,
+      "img": "../images/zapaz/urbanas/urbanas_3.jpeg",
+      "tipo": "SG"
+    },
+    {
+      "id": 8,
+      "nombre": "Zapatillas Puma Karmen II Mujer",
+      "precio": 31999,
+      "img": "../images/zapaz/urbanas/urbanas_4.jpeg",
+      "tipo": "SG"
+    },
+    {
+      "id": 9,
+      "nombre": "1958 Korina Explorer (White Pickguard), Ebony, Murphy Lab",
+      "precio": 21499,
+      "img": "../images/zapaz/running/running_1.jpeg",
+      "tipo": "Explorer"
+    },
+    {
+      "id": 10,
+      "nombre": "Explorer Black, Ebony - James Hetfield 1991",
+      "precio": 25999,
+      "img": "../images/zapaz/running/running_2.jpeg",
+      "tipo": "Explorer"
+    },
+    {
+      "id": 11,
+      "nombre": "90s Explorer - Classic White - Dave Mustaine",
+      "precio": 25999,
+      "img": "../images/zapaz/running/running_3.jpeg",
+      "tipo": "Explorer"
+    },
+    {
+      "id": 12,
+      "nombre": "1958 Korina Explorer Reissue (White Pickguard) Natural",
+      "precio": 19999,
+      "img": "../images/zapaz/running/running_4.jpeg",
+      "tipo": "Explorer"
+    }
+  ]
+}

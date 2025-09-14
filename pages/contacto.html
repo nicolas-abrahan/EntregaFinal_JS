@@ -38,110 +38,76 @@
     <!-- __ Header _____________________________________________________________________ -->
     <header class="header_container">
         <nav class="header_navegation">
-            <a href="#">Inicio</a>
-            <a href="./pages/contacto.html">Contacto</a>
-            <a href="./pages/carrito.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            <a href="../index.html">Inicio</a>
+            <a href="#">Contacto</a>
+            <a href="./carrito.html"><i class="fa-solid fa-cart-shopping"></i></a>
         </nav>
     </header>
-    <!-- __ Carrousel __________________________________________________________________ -->
-    <div id="carouselExampleIndicators" class="carousel slide">
-    <div
-            id="carouselExampleIndicators"
-            class="carousel slide carousel-container"
-        >
-            <div class="carousel-indicators">
-                <button
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide-to="0"
-                    class="active"
-                    aria-current="true"
-                    aria-label="Slide 1"
-                ></button>
-                <button
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide-to="1"
-                    aria-label="Slide 2"
-                ></button>
-                <button
-                    type="button"
-                    data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide-to="2"
-                    aria-label="Slide 3"
-                ></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img
-                        src="./images/carrousel/carrusel_1.webp"
-                        class="d-block w-100 img-fluid"
-                        alt="Amplificador Marshall"
-                    />
-                </div>
-                <div class="carousel-item">
-                    <img
-                        src="./images/carrousel/carrusel_2.webp"
-                        class="d-block w-100 img-fluid"
-                        alt="Guitarras"
-                    />
-                </div>
-                <div class="carousel-item">
-                    <img
-                        src="./images/carrousel/carrusel_3.webp"
-                        class="d-block w-100 img-fluid"
-                        alt="Gibson Les Paul"
-                    />
-                </div>
-            </div>
-            <button
-                class="carousel-control-prev"
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="prev"
-            >
-                <span
-                    class="carousel-control-prev-icon"
-                    aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-                class="carousel-control-next"
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="next"
-            >
-                <span
-                    class="carousel-control-next-icon"
-                    aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
     <!-- __ Main _______________________________________________________________________ -->
-    <main class="home_container">
-        <!-- __ Bienvenida _____________________________________________________________ -->
-        <div class="home_info">
-            <h2 class="subtitle">Bienvenido a</h2>
-            <h1 class="title">Mi ecommerce</h1>
-            <p class="paragraph">
-                Calidad y diseño al mejor precio.
-            </p>
-        </div>
-        <!-- __ Seccion de Zapato ___________________________________________________ -->
-        <section class="zapatos_section">
-            <h2 class="title">Nuestros Productos</h2>
-            <div class="zapatos_card">
-                <div id="zapatos_container">
-                <!-- ================================================== -->
-                <!-- ===== zapatos agregadas desde el data.json ===== -->
-                <!-- ================================================== -->
+    <main class="contact_form__container">
+            <h1 class="title">Contacto</h1>
+            <form class="contact_form__container--form"contact_form__container--form>
+                <p class="paragraph">
+                    <span>Envianos un mensaje a través de nuestro formulario de contacto o bien utilizando nuestro correo ecommerce@ecommerce.com.ar 
+                </p>
+                <!-- Inputs -->
+                <h2>Datos Personales</h2>
+                <div class="form__container--form_info">
+                    <div class="contact_form__container--input">
+                        <label for="name">Nombre *</label>
+                        <input
+                            type="text"
+                            name="name"
+                            id="nombre"
+                            minlength="3"
+                            maxlength="20"
+                            pattern="[A-Za-z\s]+"
+                        />
+                    </div>
+                    <div class="contact_form__container--input">
+                        <label for="surname">Apellido *</label>
+                        <input
+                            type="text"
+                            name="surname"
+                            id="apellido"
+                            minlength="3"
+                            maxlength="20"
+                            pattern="[A-Za-z\s]+"
+                        />
+                    </div>
+                    <div class="contact_form__container--input">
+                        <label for="tel">Celular *</label>
+                        <input
+                            type="tel"
+                            name="tel"
+                            id="celular"
+                            placeholder="Ejemplo: +5493411231234"
+                            pattern="[0-9]+"
+                        />
+                    </div>
+                    <div class="contact_form__container--input">
+                        <label for="email">Correo electrónico *</label>
+                        <input type="email" name="email" id="email" />
+                    </div>
                 </div>
-                
-            </div>
-        </section>
-    </main>
+                <!-- Textarea -->
+                <h2>Mensaje</h2>
+                <div class="contact_form__container--textarea">
+                    <textarea
+                        name="message"
+                        id="mensaje"
+                        placeholder="Dejanos un Mensaje *"
+                        maxlength="1000"
+                    ></textarea>
+                    <p class="paragraph-xs">Máx. 1000 caracteres</p>
+                </div>
+
+                <!-- Button -->
+                <div class="contact_form__container--button">
+                    <input type="submit" value="Enviar" />
+                </div>
+            </form>
+        </main>
     <!-- __ Footer _____________________________________________________________________ -->
     <footer class="footer__container">
         <!-- __ Info ___________________________________________________________________ -->
@@ -184,21 +150,20 @@
                 <!-- __ Page Links ___________________________________________________ -->
                 <div class="links__page">
                     <div class="navbar-nav">
-                        <a class="nav-link" href="#"
+                        <a class="nav-link" href="../index.html"
                             >Inicio</a
                         >
-                        <a class="nav-link" href="./pages/contacto.html"
+                        <a class="nav-link" href="#"
                             >Contacto</a
                         >
-                        <a class="nav-link" href="./pages/carrito.html"
+                        <a class="nav-link" href="./carrito.html"
                             >Carrito</a
                         >
                     </div>
                 </div>
             </div>
         </div>
-       
-    </footer>
+      
 
 <!-- __ Scripts ______________________________________________________________________ -->
 <!-- Bootstrap Script -->
@@ -207,9 +172,7 @@
     integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
     crossorigin="anonymous"
 ></script>
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-
 <!-- JS Script -->
-<script type="module" src="./js/main.js"></script>
+<script type="module" src="../js/contacto.js"></script>
 </body>
 </html>
